@@ -1,0 +1,59 @@
+*{
+    font-family: serif, Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: antiquewhite;
+    margin-top: 0%;
+    display: flex;
+    margin-left: 0%;
+}
+
+.fotoDePerfil{
+    border-radius: 50%;
+    position: relative;
+    padding: 18px;
+}
+
+.barraIzq{
+    height: 100%;
+    width: 30vh;
+    background-color: gray;
+    position:fixed
+}
+
+article{
+    font-size: 2vh;
+    text-align: justify;
+}
+
+.portfolio{
+    padding-top: 20vh;
+    padding-left: 30vh;
+}
+
+div.portfolio > div{
+    display: flex;
+    padding-top: 2vh;
+    padding-left: 10px;
+}
+
+#content2, #content4{
+    flex-direction: row-reverse;
+}
+
+div.portfolio > div>img{
+  margin: 10px, 10px, 10px, 10px;
+}
+
+.datos{
+    background-color: aqua;
+    height: 20vh;
+    width: 100%;
+    position: fixed;
+    left: 30vh;
+}
+
+.datos > h1,h2,h3{
+    padding-left: 10px;
+}
